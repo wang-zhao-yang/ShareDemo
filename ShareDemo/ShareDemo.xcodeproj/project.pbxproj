@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE299E624EE0B2BB9A48606F /* libPods-ShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B844F7A32B0DEAD432DF7E42 /* libPods-ShareDemo.a */; };
+		F77056A81DF024A600664139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056A71DF024A600664139 /* main.m */; };
+		F77056AB1DF024A600664139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056AA1DF024A600664139 /* AppDelegate.m */; };
+		F77056AE1DF024A600664139 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056AD1DF024A600664139 /* ViewController.m */; };
+		F77056B11DF024A600664139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77056AF1DF024A600664139 /* Main.storyboard */; };
+		F77056B31DF024A600664139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77056B21DF024A600664139 /* Assets.xcassets */; };
+		F77056B61DF024A600664139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77056B41DF024A600664139 /* LaunchScreen.storyboard */; };
+		F77056DA1DF0263900664139 /* ZYShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056D91DF0263900664139 /* ZYShareButton.m */; };
+		F77056DD1DF0268500664139 /* ZYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056DC1DF0268500664139 /* ZYShareView.m */; };
+		F77056E01DF02A8600664139 /* ZYShareToThirdparty.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056DF1DF02A8600664139 /* ZYShareToThirdparty.m */; };
+		F77056E31DF02B3100664139 /* ZYShareToSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056E21DF02B3100664139 /* ZYShareToSinaWeibo.m */; };
+		F77056E91DF02BA600664139 /* ZYShareToQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056E81DF02BA600664139 /* ZYShareToQQ.m */; };
+		F77056EF1DF02C2300664139 /* ZYShareToWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = F77056EE1DF02C2300664139 /* ZYShareToWeChat.m */; };
+		F77E1F871DF653170084631C /* QQ好友(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F7C1DF653170084631C /* QQ好友(2).png */; };
+		F77E1F881DF653170084631C /* QQ好友.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F7D1DF653170084631C /* QQ好友.png */; };
+		F77E1F891DF653170084631C /* QQ空间(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F7E1DF653170084631C /* QQ空间(2).png */; };
+		F77E1F8A1DF653170084631C /* QQ空间.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F7F1DF653170084631C /* QQ空间.png */; };
+		F77E1F8B1DF653170084631C /* 取消按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F801DF653170084631C /* 取消按下.png */; };
+		F77E1F8C1DF653170084631C /* 微信好友(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F811DF653170084631C /* 微信好友(2).png */; };
+		F77E1F8D1DF653170084631C /* 微信好友.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F821DF653170084631C /* 微信好友.png */; };
+		F77E1F8E1DF653170084631C /* 新浪微博(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F831DF653170084631C /* 新浪微博(2).png */; };
+		F77E1F8F1DF653170084631C /* 新浪微博.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F841DF653170084631C /* 新浪微博.png */; };
+		F77E1F901DF653170084631C /* 朋友圈(2).png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F851DF653170084631C /* 朋友圈(2).png */; };
+		F77E1F911DF653170084631C /* 朋友圈.png in Resources */ = {isa = PBXBuildFile; fileRef = F77E1F861DF653170084631C /* 朋友圈.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		346C821DF4502CE2E3E306DB /* Pods-ShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareDemo/Pods-ShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		77B44D2ED71828E4614EDD8F /* Pods-ShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareDemo/Pods-ShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B844F7A32B0DEAD432DF7E42 /* libPods-ShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77056A31DF024A600664139 /* ShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77056A71DF024A600664139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F77056A91DF024A600664139 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F77056AA1DF024A600664139 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F77056AC1DF024A600664139 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F77056AD1DF024A600664139 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F77056B01DF024A600664139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77056B21DF024A600664139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77056B51DF024A600664139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77056B71DF024A600664139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77056D71DF025C700664139 /* ZYShareHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYShareHeader.h; sourceTree = "<group>"; };
+		F77056D81DF0263900664139 /* ZYShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareButton.h; sourceTree = "<group>"; };
+		F77056D91DF0263900664139 /* ZYShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareButton.m; sourceTree = "<group>"; };
+		F77056DB1DF0268500664139 /* ZYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareView.h; sourceTree = "<group>"; };
+		F77056DC1DF0268500664139 /* ZYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareView.m; sourceTree = "<group>"; };
+		F77056DE1DF02A8600664139 /* ZYShareToThirdparty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareToThirdparty.h; sourceTree = "<group>"; };
+		F77056DF1DF02A8600664139 /* ZYShareToThirdparty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareToThirdparty.m; sourceTree = "<group>"; };
+		F77056E11DF02B3100664139 /* ZYShareToSinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareToSinaWeibo.h; sourceTree = "<group>"; };
+		F77056E21DF02B3100664139 /* ZYShareToSinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareToSinaWeibo.m; sourceTree = "<group>"; };
+		F77056E71DF02BA600664139 /* ZYShareToQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareToQQ.h; sourceTree = "<group>"; };
+		F77056E81DF02BA600664139 /* ZYShareToQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareToQQ.m; sourceTree = "<group>"; };
+		F77056ED1DF02C2300664139 /* ZYShareToWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareToWeChat.h; sourceTree = "<group>"; };
+		F77056EE1DF02C2300664139 /* ZYShareToWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareToWeChat.m; sourceTree = "<group>"; };
+		F77E1F7C1DF653170084631C /* QQ好友(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ好友(2).png"; sourceTree = "<group>"; };
+		F77E1F7D1DF653170084631C /* QQ好友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ好友.png"; sourceTree = "<group>"; };
+		F77E1F7E1DF653170084631C /* QQ空间(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ空间(2).png"; sourceTree = "<group>"; };
+		F77E1F7F1DF653170084631C /* QQ空间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ空间.png"; sourceTree = "<group>"; };
+		F77E1F801DF653170084631C /* 取消按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消按下.png"; sourceTree = "<group>"; };
+		F77E1F811DF653170084631C /* 微信好友(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信好友(2).png"; sourceTree = "<group>"; };
+		F77E1F821DF653170084631C /* 微信好友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信好友.png"; sourceTree = "<group>"; };
+		F77E1F831DF653170084631C /* 新浪微博(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新浪微博(2).png"; sourceTree = "<group>"; };
+		F77E1F841DF653170084631C /* 新浪微博.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新浪微博.png"; sourceTree = "<group>"; };
+		F77E1F851DF653170084631C /* 朋友圈(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈(2).png"; sourceTree = "<group>"; };
+		F77E1F861DF653170084631C /* 朋友圈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈.png"; sourceTree = "<group>"; };
+		F782C8A61DF1624B004B1906 /* ShareDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareDemo.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77056A01DF024A600664139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE299E624EE0B2BB9A48606F /* libPods-ShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BA94E25E63C647800CC74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B844F7A32B0DEAD432DF7E42 /* libPods-ShareDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E391BD0C15B5B7A19C939CF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				346C821DF4502CE2E3E306DB /* Pods-ShareDemo.debug.xcconfig */,
+				77B44D2ED71828E4614EDD8F /* Pods-ShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F770569A1DF024A600664139 = {
+			isa = PBXGroup;
+			children = (
+				F77056A51DF024A600664139 /* ShareDemo */,
+				F77056A41DF024A600664139 /* Products */,
+				E391BD0C15B5B7A19C939CF6 /* Pods */,
+				84BA94E25E63C647800CC74A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F77056A41DF024A600664139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77056A31DF024A600664139 /* ShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77056A51DF024A600664139 /* ShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F77056BD1DF024F300664139 /* ZYShare */,
+				F77056A91DF024A600664139 /* AppDelegate.h */,
+				F77056AA1DF024A600664139 /* AppDelegate.m */,
+				F77056AC1DF024A600664139 /* ViewController.h */,
+				F77056AD1DF024A600664139 /* ViewController.m */,
+				F77056AF1DF024A600664139 /* Main.storyboard */,
+				F77056B21DF024A600664139 /* Assets.xcassets */,
+				F77056B41DF024A600664139 /* LaunchScreen.storyboard */,
+				F782C8A61DF1624B004B1906 /* ShareDemo.pch */,
+				F77056B71DF024A600664139 /* Info.plist */,
+				F77056A61DF024A600664139 /* Supporting Files */,
+			);
+			path = ShareDemo;
+			sourceTree = "<group>";
+		};
+		F77056A61DF024A600664139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77056A71DF024A600664139 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F77056BD1DF024F300664139 /* ZYShare */ = {
+			isa = PBXGroup;
+			children = (
+				F77E1F7B1DF653170084631C /* ZYShareImages */,
+				F77056D71DF025C700664139 /* ZYShareHeader.h */,
+				F77056DE1DF02A8600664139 /* ZYShareToThirdparty.h */,
+				F77056DF1DF02A8600664139 /* ZYShareToThirdparty.m */,
+				F77056E11DF02B3100664139 /* ZYShareToSinaWeibo.h */,
+				F77056E21DF02B3100664139 /* ZYShareToSinaWeibo.m */,
+				F77056E71DF02BA600664139 /* ZYShareToQQ.h */,
+				F77056E81DF02BA600664139 /* ZYShareToQQ.m */,
+				F77056ED1DF02C2300664139 /* ZYShareToWeChat.h */,
+				F77056EE1DF02C2300664139 /* ZYShareToWeChat.m */,
+				F77056D81DF0263900664139 /* ZYShareButton.h */,
+				F77056D91DF0263900664139 /* ZYShareButton.m */,
+				F77056DB1DF0268500664139 /* ZYShareView.h */,
+				F77056DC1DF0268500664139 /* ZYShareView.m */,
+			);
+			path = ZYShare;
+			sourceTree = "<group>";
+		};
+		F77E1F7B1DF653170084631C /* ZYShareImages */ = {
+			isa = PBXGroup;
+			children = (
+				F77E1F7C1DF653170084631C /* QQ好友(2).png */,
+				F77E1F7D1DF653170084631C /* QQ好友.png */,
+				F77E1F7E1DF653170084631C /* QQ空间(2).png */,
+				F77E1F7F1DF653170084631C /* QQ空间.png */,
+				F77E1F801DF653170084631C /* 取消按下.png */,
+				F77E1F811DF653170084631C /* 微信好友(2).png */,
+				F77E1F821DF653170084631C /* 微信好友.png */,
+				F77E1F831DF653170084631C /* 新浪微博(2).png */,
+				F77E1F841DF653170084631C /* 新浪微博.png */,
+				F77E1F851DF653170084631C /* 朋友圈(2).png */,
+				F77E1F861DF653170084631C /* 朋友圈.png */,
+			);
+			path = ZYShareImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77056A21DF024A600664139 /* ShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77056BA1DF024A600664139 /* Build configuration list for PBXNativeTarget "ShareDemo" */;
+			buildPhases = (
+				ED37A7A224F30E343E888034 /* [CP] Check Pods Manifest.lock */,
+				F770569F1DF024A600664139 /* Sources */,
+				F77056A01DF024A600664139 /* Frameworks */,
+				F77056A11DF024A600664139 /* Resources */,
+				5D5AB265D48C1112040DD4C2 /* [CP] Embed Pods Frameworks */,
+				C31249D1C43037F5CC840801 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareDemo;
+			productName = ShareDemo;
+			productReference = F77056A31DF024A600664139 /* ShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F770569B1DF024A600664139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYShare;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chuanglong;
+				TargetAttributes = {
+					F77056A21DF024A600664139 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F770569E1DF024A600664139 /* Build configuration list for PBXProject "ShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F770569A1DF024A600664139;
+			productRefGroup = F77056A41DF024A600664139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77056A21DF024A600664139 /* ShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77056A11DF024A600664139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77056B61DF024A600664139 /* LaunchScreen.storyboard in Resources */,
+				F77E1F901DF653170084631C /* 朋友圈(2).png in Resources */,
+				F77E1F891DF653170084631C /* QQ空间(2).png in Resources */,
+				F77056B31DF024A600664139 /* Assets.xcassets in Resources */,
+				F77E1F881DF653170084631C /* QQ好友.png in Resources */,
+				F77056B11DF024A600664139 /* Main.storyboard in Resources */,
+				F77E1F8F1DF653170084631C /* 新浪微博.png in Resources */,
+				F77E1F8B1DF653170084631C /* 取消按下.png in Resources */,
+				F77E1F8E1DF653170084631C /* 新浪微博(2).png in Resources */,
+				F77E1F871DF653170084631C /* QQ好友(2).png in Resources */,
+				F77E1F8C1DF653170084631C /* 微信好友(2).png in Resources */,
+				F77E1F8D1DF653170084631C /* 微信好友.png in Resources */,
+				F77E1F911DF653170084631C /* 朋友圈.png in Resources */,
+				F77E1F8A1DF653170084631C /* QQ空间.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D5AB265D48C1112040DD4C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareDemo/Pods-ShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31249D1C43037F5CC840801 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareDemo/Pods-ShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED37A7A224F30E343E888034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F770569F1DF024A600664139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77056DA1DF0263900664139 /* ZYShareButton.m in Sources */,
+				F77056AE1DF024A600664139 /* ViewController.m in Sources */,
+				F77056E31DF02B3100664139 /* ZYShareToSinaWeibo.m in Sources */,
+				F77056DD1DF0268500664139 /* ZYShareView.m in Sources */,
+				F77056EF1DF02C2300664139 /* ZYShareToWeChat.m in Sources */,
+				F77056E01DF02A8600664139 /* ZYShareToThirdparty.m in Sources */,
+				F77056AB1DF024A600664139 /* AppDelegate.m in Sources */,
+				F77056A81DF024A600664139 /* main.m in Sources */,
+				F77056E91DF02BA600664139 /* ZYShareToQQ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77056AF1DF024A600664139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77056B01DF024A600664139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77056B41DF024A600664139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77056B51DF024A600664139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77056B81DF024A600664139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77056B91DF024A600664139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77056BB1DF024A600664139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346C821DF4502CE2E3E306DB /* Pods-ShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShareDemo/ShareDemo.pch";
+				INFOPLIST_FILE = ShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareDemo/WeChat_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.ShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F77056BC1DF024A600664139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B44D2ED71828E4614EDD8F /* Pods-ShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShareDemo/ShareDemo.pch";
+				INFOPLIST_FILE = ShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareDemo/WeChat_SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.ShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F770569E1DF024A600664139 /* Build configuration list for PBXProject "ShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77056B81DF024A600664139 /* Debug */,
+				F77056B91DF024A600664139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77056BA1DF024A600664139 /* Build configuration list for PBXNativeTarget "ShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77056BB1DF024A600664139 /* Debug */,
+				F77056BC1DF024A600664139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F770569B1DF024A600664139 /* Project object */;
+}

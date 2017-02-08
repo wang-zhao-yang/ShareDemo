@@ -1,0 +1,22 @@
+//
+//  ShareDemo.pch
+//  ShareDemo
+//
+//  Created by chuanglong03 on 2016/12/2.
+//  Copyright © 2016年 chuanglong. All rights reserved.
+//
+
+#ifndef ShareDemo_pch
+#define ShareDemo_pch
+
+// AppKey
+#define App_Key_WeChat        @"wx5605c6c98f307140"
+#define App_Key_QQ            @"1105317007"
+#define App_Key_SinaWeibo     @"3751963159"
+#define SinaWeibo_RedirectUri @"https://api.weibo.com/oauth2/default.html"
+
+// 屏幕尺寸
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+
+#endif

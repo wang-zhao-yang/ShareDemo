@@ -1,0 +1,5 @@
+target “ShareDemo” do
+pod 'WeiboSDK'
+pod 'TencentOpenApiSDK'
+pod 'WeChat_SDK'
+end
