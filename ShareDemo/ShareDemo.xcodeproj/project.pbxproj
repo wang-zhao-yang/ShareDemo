@@ -221,7 +221,7 @@
 				TargetAttributes = {
 					F77056A21DF024A600664139 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = YQSV9JS5Z8;
+						DevelopmentTeam = 7BF8ESJTM7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -450,7 +450,7 @@
 			baseConfigurationReference = 346C821DF4502CE2E3E306DB /* Pods-ShareDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				DEVELOPMENT_TEAM = 7BF8ESJTM7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShareDemo/ShareDemo.pch";
 				INFOPLIST_FILE = ShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -499,7 +499,7 @@
 			baseConfigurationReference = 77B44D2ED71828E4614EDD8F /* Pods-ShareDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				DEVELOPMENT_TEAM = 7BF8ESJTM7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShareDemo/ShareDemo.pch";
 				INFOPLIST_FILE = ShareDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

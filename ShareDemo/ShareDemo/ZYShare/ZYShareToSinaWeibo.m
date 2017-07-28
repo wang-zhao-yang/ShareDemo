@@ -35,7 +35,7 @@
 #pragma mark - 获取 messageObject
 - (WBMessageObject *)getMessageObject {
     WBMessageObject *messageObject = [WBMessageObject message];
-    BOOL isInstalledSinaWeibo = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"weibo://"]];
+    BOOL isInstalledSinaWeibo = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"sinaweibo://"]];
     if(isInstalledSinaWeibo) {
         if (self.shareCategory == Share_Category_Text) {
             messageObject.text = NSLocalizedString(self.shareDescription, nil);
