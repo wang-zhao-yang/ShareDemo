@@ -188,12 +188,11 @@
 
 #pragma mark - 设置分享内容
 - (void)shareWithTitle:(NSString *)title description:(NSString *)description image:(UIImage *)image url:(NSString *)url category:(Share_Category)category {
-    ZYShareToThirdparty *thirdparty = [ZYShareToThirdparty sharedManager];
-    thirdparty.shareTitle = title;
-    thirdparty.shareDescription = description;
-    thirdparty.shareImage = image;
-    thirdparty.shareUrl = url;
-    thirdparty.shareCategory = category;
+    [self addWeixinSessionWithTitle:title description:description image:image url:url category:category];
+    [self addWeixinTimelineWithTitle:title description:description image:image url:url category:category];
+    [self addQQZoneWithTitle:title description:description image:image url:url category:category];
+    [self addQQSessionWithTitle:title description:description image:image url:url category:category];
+    [self addSinaWeiboWithTitle:title description:description image:image url:url category:category];
 }
 
 #pragma mark - 设置微信好友分享
