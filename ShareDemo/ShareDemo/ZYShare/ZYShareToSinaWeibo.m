@@ -44,13 +44,12 @@
             imageObject.imageData = UIImageJPEGRepresentation(self.shareImage, 1.0);
             messageObject.imageObject = imageObject;
         } else if (self.shareCategory == Share_Category_WebUrl) {
-            WBWebpageObject *webpageObject = [WBWebpageObject object];
-            webpageObject.title = self.shareTitle;
-            webpageObject.description = self.shareDescription;
-            NSData *imageData = UIImageJPEGRepresentation(self.shareImage, 1);
-            webpageObject.thumbnailData = imageData;
-            webpageObject.webpageUrl = self.shareUrl;
-            messageObject.mediaObject = webpageObject;
+            if (self.shareImage) {
+                WBImageObject *imageObject = [WBImageObject object];
+                imageObject.imageData = UIImageJPEGRepresentation(self.shareImage, 1.0);
+                messageObject.imageObject = imageObject;
+            }
+            messageObject.text = [NSString stringWithFormat:@"%@--%@ %@", self.shareTitle, self.shareDescription, self.shareUrl];
         }
     } else {
         Show_Alert(@"未安装新浪微博应用！");
